@@ -5,5 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Report triggering event
+      - name: Primeiro Step do fluxo
         run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
